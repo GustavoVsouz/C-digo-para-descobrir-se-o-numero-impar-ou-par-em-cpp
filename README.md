@@ -5,9 +5,7 @@
 int main() {
     setbuf(stdout, NULL); 
 setlocale(LC_ALL,"");
-	
     int n;
-    
     while (true) {
         std::cout << "Digite um número (ou pressione Enter para sair): ";
         if (std::cin >> n) { 
@@ -25,9 +23,7 @@ setlocale(LC_ALL,"");
                 std::cout << "Entrada inválida. Por favor, insira um número." << std::endl;
         }
     }
-    
     std::cout << "Programa encerrado." << std::endl;
-    
     return 0;
 }
 
